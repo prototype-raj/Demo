@@ -1,6 +1,6 @@
 function setTheme(themeName) {
     localStorage.setItem('theme', themeName);
-    document.getElementById('nxt_theme').innerHTML = (themeName === 'theme-dark') ?
+    document.getElementById('nxt_theme').innerHTML = (themeName === 'theme-light') ?
             'Dark <i class="fas fa-moon  fa-lg  "></i>' : 
             'Light <i class="fas fa-sun fa-lg  "></i>';
     document.documentElement.className = themeName;
