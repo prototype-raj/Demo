@@ -31,6 +31,10 @@ body {
 .container h1 {
   color: var(--font-color);
 }
+
+.container h2 {
+  color: var(--font-color)
+}
 .container button {
   color: var(--button-font-color);
   background: var(--color-primary);
